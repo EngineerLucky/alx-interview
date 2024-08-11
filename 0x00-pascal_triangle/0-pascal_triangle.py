@@ -1,11 +1,14 @@
 #!/usr/bin/python3
 """
-Pascal's Triangle - Combined Approach
+0. Pascal's Triangle
 """
 
+
 def pascal_triangle(n):
-    """Returns a list of lists of integers representing Pascal’s triangle of n."""
- res = []
+    """A  function creating a def pascal_triangle(n): that returns a list of lists
+    of integers representing the Pascal’s triangle of n
+    """
+    res = []
     if n > 0:
         for i in range(1, n + 1):
             level = []
