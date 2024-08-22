@@ -5,7 +5,7 @@
 def minOperations(n):
     """
     minOperations
-    The function 
+    The function
     gets fewest # of operations needed to result in exactly n H characters
     """
     # all the outputs should be at least 2 char: (min, Copy All => Paste)
