@@ -7,7 +7,6 @@ Solving Island Perimeter Problem
 def island_perimeter(grid):
     """
     The function Calculates the perimeter of
-    
     the island described in grid
     Args:
         grid: 2d list of integers containing 0(water) or 1(land)
